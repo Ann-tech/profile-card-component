@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(185, 75%, 39%);
+    background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
+    background-size: 50rem 50rem;
+    background-repeat: no-repeat;
+    background-position: top -20rem left -30rem, right -32rem bottom -24rem;
+}
+
+main {
+    max-width: 70%;
+    background-color: white;
+    border-radius: 2rem;
+}
+
+img[src="./images/bg-pattern-card.svg"] {
+    width: 100%;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+#contain-img {
+    background-color: white;
+    border-radius: 50%;
+    width: 11rem;
+    height: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    margin-left: -55px;
+    top: -55px;
+}
+
+img[src="./images/image-victor.jpg"] {
+    border-radius: 50%;
+}
+
+.user-info {
+    text-align: center;
+}
+
+#user-name {
+    margin-top: -4rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+span {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    margin-left: 0.5rem;
+}
+
+#user-location {
+    margin: 1rem 0 2rem 0;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    font-size: 1.2rem;
+}
+
+
+#pop {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 0 2rem 0;
+}
+
+.content {
+    margin-top: .5rem;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.stats {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 2rem;
+}
+
+.attribution {
+    font-size: 1.2rem; 
+}
+
+
+@media screen and (min-width: 600px) {
+    body {
+        background-position: top -20rem left -24rem, right -22rem bottom -24rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-position: top -59.5rem left -58.5rem, right -49rem bottom -70rem;
+        background-size: auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        background-size: auto;
+        background-position: top -59.5rem left -42.5rem, right -33rem bottom -69rem;
+
+    }
+} 
+
+@media screen and (min-width: 1300px) {
+    body {
+        background-size: auto;
+        background-position: top -49.5rem left -28.5rem, right -23rem bottom -63rem;
+
+    }
+} 
+
+
+
